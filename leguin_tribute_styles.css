@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    background: linear-gradient(#cbf6f7 60%, #f7e2a0, #ea8982);
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    padding: 5vh;
+}
+
+h1,
+h2 {
+    text-align: left;
+    margin: 0;
+}
+
+h1 {
+    display: inline-block;;
+    font-family: "Corinthia", script;
+    font-size: 4rem;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 20px;
+    box-shadow: 0 0 100px 100px rgba(255, 255, 255, .7);
+}
+
+h2 {
+    padding-top: .8vh;
+    padding-left: 20%;
+    color:rgb(5, 86, 82);
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 60%;
+    max-width: 100%;
+    min-width: 350px;
+    height: auto;
+    min-height: 220px;
+    display: block;
+}
+
+figcaption {
+    text-align: right;
+    font-style: italic;
+    font-size: .8rem;
+    writing-mode: vertical-lr;
+}
+
+
+
+p {
+    text-align: left;
+    padding: 10px;
+}
+
+.p1 {
+    margin-left: 25%;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 20px;
+    box-shadow: 0 0 100px 100px rgba(255, 255, 255, .7);
+}
+
+.p2 {
+    margin-left: 45%;
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    box-shadow: 0 0 100px 100px rgba(255, 255, 255, .5);
+}
+
+.site-flex-container {
+    display: flex;
+    justify-content: end;
+}
+
+.site-link-blur {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    box-shadow: 0 0 100px 80px rgba(255, 255, 255, .5);
+}
+
+a {
+    color: rgb(5, 86, 82);   
+    filter: 0; 
+    font-style: italic;
+}
